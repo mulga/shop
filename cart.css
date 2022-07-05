@@ -192,3 +192,42 @@ select {
     gap: 2rem;
   }
 }
+
+/* review page */
+
+.input-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  margin: 2rem 0;
+  background-color: #e7eaed;
+  padding: 2rem;
+}
+
+.input-wrapper input {
+  padding: 0.5rem;
+  border: none;
+  /* font-size: 0.8rem; */
+}
+
+.input-wrapper textarea {
+  /* padding: 0.5rem; */
+  border: none;
+  /* font-size: 0.8rem; */
+}
+
+.review-show-wrapper {
+  background-color: #ecf0f1;
+  padding: 2rem;
+  margin-bottom: 1rem;
+}
+
+.show-row {
+  /* margin-bottom: 2rem; */
+  border-bottom: 1px solid var(--color-secondary);
+  padding: 1rem;
+}
+
+.show-row:last-child {
+  border-bottom: none;
+}

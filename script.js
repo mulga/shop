@@ -157,3 +157,10 @@ function updateCartTotal() {
 //   var tip = (subtotal / 100) * 10;
 //   document.getElementById("cart-tip").innerHTML = tip;
 // }
+
+// slider
+
+var mySlide = document.querySelector("#mySlide");
+var caro = new bootstrap.Carousel(mySlide, {
+  interval: 5000,
+});
